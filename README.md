@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prueba Técnica para Security and System
 
-## Getting Started
+## Descripción
 
-First, run the development server:
+Este proyecto es una página web de un perfil de usuario que incluye información básica, una lista de intereses y una sección de contacto. Fue desarrollado como una prueba técnica para demostrar habilidades en HTML, CSS, React y Next.js.
+
+## Requisitos Cumplidos
+
+- Estructura del proyecto con Next.js 14
+- Componentes React para cada sección de la página
+- Formulario de contacto con validación básica
+- Estilización responsiva utilizando CSS (sin frameworks)
+- CSS Modules para el manejo de estilos
+- Animaciones suaves
+- Tests básicos con Jest y Testing Library
+
+## Instalación y Ejecución en Entorno Local
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/beckman924/challenge_security-and-system
+cd challenge_security-and-system
+```
+
+2. Instala las dependencias:
+
+```bash
+npm install
+```
+
+3. Inicia la aplicación en modo de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Pruebas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para ejecutar las pruebas con Jest:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run test
+```
 
-## Learn More
+## Despliegue
 
-To learn more about Next.js, take a look at the following resources:
+Puedes probar la aplicación desplegada en el siguiente enlace:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Deploy](https://challenge-security-and-system.vercel.app/)
