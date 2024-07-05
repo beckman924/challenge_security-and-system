@@ -40,7 +40,7 @@ export default function Contact() {
         </span>
 
         <div className={styles.content__background}>
-          <form onSubmit={handleSubmit} className={styles.form}>
+          <form onSubmit={handleSubmit} data-testid="contact-form" className={styles.form}>
             <div className={styles.formGroup}>
               <input
                 type="text"

@@ -34,7 +34,7 @@ export default function Interests(): JSX.Element {
   }, []);
 
   return (
-    <div ref={containerRef} className={styles.container}>
+    <div ref={containerRef} data-testid="interests-container" className={styles.container}>
       <h2>Intereses</h2>
 
       <div className={styles.content}>

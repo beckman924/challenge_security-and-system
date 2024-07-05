@@ -13,6 +13,7 @@ export default function Header() {
         className={styles.profileImage}
         width={50}
         height={50}
+        priority={true}
       />
     </header>
   );

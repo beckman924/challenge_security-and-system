@@ -1,7 +1,7 @@
-import About from "../About/About";
-import Contact from "../Contact/Contact";
-import Interests from "../Interests/Interests";
-import Main from "./Main";
+import About from "@components/About/About";
+import Contact from "@components/Contact/Contact";
+import Interests from "@components/Interests/Interests";
+import Main from "@components/Main/Main";
 import styles from "./styles.module.css";
 
 export default function MainWrapper() {

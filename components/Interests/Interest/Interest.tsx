@@ -7,7 +7,7 @@ interface InterestProps {
 }
 export default function Interest({ name, icon }: InterestProps) {
   return (
-    <div className={styles.item}>
+    <div data-testid="interest-item" className={styles.item}>
       <h3 className={styles.item__title}>{name}</h3>
       <Image
         src={`/${icon}.png`}
